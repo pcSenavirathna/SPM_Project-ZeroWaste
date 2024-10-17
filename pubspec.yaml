@@ -1,0 +1,77 @@
+name: zero_waste
+description: "A Mobile Based Garbage Collection System"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  firebase_core: ^3.6.0
+  firebase_auth: ^5.2.0
+  firebase_database: any
+  cloud_firestore: any
+  provider: any
+  go_router: any
+  flutter_osm_plugin: any
+  cupertino_icons: any
+  dropdown_button2: any
+  pdf: any
+  printing: any
+  intl: any
+  persistent_bottom_nav_bar: any
+  material_dialogs: any
+  firebase_storage: any
+  image_picker: any
+  http: any
+  flutter_holo_date_picker: any
+  flutter_native_splash: any
+  logger: ^2.4.0
+  flutter_onboarding_slider: any
+  image: any
+  path_provider: any
+  image_gallery_saver: any
+  permission_handler: any
+  awesome_notifications: any
+  url_launcher: any
+  firebase_messaging: any
+  qr_flutter: any
+  qr_code_scanner: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  assets:
+    - assets/logo.png
+    - assets/bgImg.jpg
+    - assets/garbage.jpg
+  uses-material-design: true
+
+  fonts:
+    - family: CustomBins
+      fonts:
+        - asset: fonts/CustomBins.ttf
+
+flutter_native_splash:
+  color: "#0097A7"
+  image: assets/Logo.png
+  color_dark: "#121212"
+  image_dark: assets/Logo.png
+
+  android_12:
+    image: assets/Logo.png
+    icon_background_color: "#0097A7"
+    image_dark: assets/Logo.png
+    icon_background_color_dark: "#121212"
+
+  web: false

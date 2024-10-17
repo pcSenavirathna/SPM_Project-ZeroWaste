@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "812568091676",
+    "firebase_url": "https://zerowaste-8e1d8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "zerowaste-8e1d8",
+    "storage_bucket": "zerowaste-8e1d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812568091676:android:3f744c28df6af6ac0393d9",
+        "android_client_info": {
+          "package_name": "com.zerowaste.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2CGHaNBaDGCtcm7gZk3uFP29MbobIsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
